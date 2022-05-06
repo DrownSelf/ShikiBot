@@ -1,4 +1,11 @@
 .vs
 Shiki/bin
 Shiki/obj
+Shiki.Commands/bin
+Shiki.Commands/obj
+Shiki.Data/bin
+Shiki.Data/obj
+Shiki.Service/bin
+Shiki.Service/obj
 Shiki.sln
+Shiki/ConnectionConfig.json

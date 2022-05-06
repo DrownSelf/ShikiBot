@@ -1,0 +1,12 @@
+C:\Ryougi\Shiki.Data\bin\Debug\net5.0\Shiki.Data.deps.json
+C:\Ryougi\Shiki.Data\bin\Debug\net5.0\Shiki.Data.dll
+C:\Ryougi\Shiki.Data\bin\Debug\net5.0\Shiki.Data.pdb
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.csproj.AssemblyReference.cache
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.AssemblyInfoInputs.cache
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.AssemblyInfo.cs
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.csproj.CoreCompileInputs.cache
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.dll
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\refint\Shiki.Data.dll
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\Shiki.Data.pdb
+C:\Ryougi\Shiki.Data\obj\Debug\net5.0\ref\Shiki.Data.dll
