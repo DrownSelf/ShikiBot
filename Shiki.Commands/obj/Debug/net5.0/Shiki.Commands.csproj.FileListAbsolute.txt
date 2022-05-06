@@ -1,0 +1,17 @@
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Commands.deps.json
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Commands.dll
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Commands.pdb
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.csproj.AssemblyReference.cache
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.AssemblyInfoInputs.cache
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.AssemblyInfo.cs
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.csproj.CoreCompileInputs.cache
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.dll
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\refint\Shiki.Commands.dll
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.pdb
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\ref\Shiki.Commands.dll
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Data.dll
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Service.dll
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Service.pdb
+C:\Ryougi\Shiki.Commands\bin\Debug\net5.0\Shiki.Data.pdb
+C:\Ryougi\Shiki.Commands\obj\Debug\net5.0\Shiki.Commands.csproj.CopyComplete
