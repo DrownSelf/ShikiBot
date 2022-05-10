@@ -61,12 +61,12 @@ namespace Shiki.Commands
             if (Player.CurrentlyPlaying())
             {
                 Player.Tracks.Enqueue(track);
-                await context.RespondAsync($"");
+                await context.RespondAsync($"{track.Title} {track.Author} added to queue");
                 return;
             }
 
             await Player.PlaybackTrack(track);
-            await context.RespondAsync($"Currently playing {request}");
+            await context.RespondAsync($"Currently playing {track.Title} {track.Author}");
         }
 
         [Command("youtube")]
@@ -80,17 +80,16 @@ namespace Shiki.Commands
         [Command("resume")]
         public async Task Resume(CommandContext context)
         {
-            if (await CheckConnectionForDisturb(context))
+            if (!await CheckConnectionForDisturb(context))
                 return;
-            await context.RespondAsync($"Resume playing {Player.Connection.CurrentState.CurrentTrack.Title} ")
+            await context.RespondAsync($"Resume playing {Player.Connection.CurrentState.CurrentTrack.Title} ");
             await Player.ResumeTrack();
         }
             
-
         [Command("pause")]
         public async Task Pause(CommandContext context)
         {
-            if (await CheckConnectionForDisturb(context))
+            if (!await CheckConnectionForDisturb(context))
                 return;
             await context.RespondAsync($"{Player.Connection.CurrentState.CurrentTrack.Title} {Player.Connection.CurrentState.CurrentTrack.Author} paused");
             await Player.PauseTrack();
@@ -99,7 +98,7 @@ namespace Shiki.Commands
         [Command("stop")]
         public async Task Stop(CommandContext context)
         {
-            if (await CheckConnectionForDisturb(context))
+            if (!await CheckConnectionForDisturb(context))
                 return;
             await context.RespondAsync("Player Stopped");
             await Player.StopPlayer();

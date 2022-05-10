@@ -1,7 +1,6 @@
 ﻿using DSharpPlus.Lavalink;
 using System.Threading.Tasks;
 using System.Linq;
-using System;
 
 namespace Shiki.Service
 {
@@ -16,23 +15,12 @@ namespace Shiki.Service
 
         public async Task<LavalinkTrack> FindTrack(string request, LavalinkSearchType searchType)
         {
+            
             var loadedTreck = await LavalinkService.LavalinkNodeConnection.Rest.GetTracksAsync(request, searchType);
             if (!(loadedTreck.LoadResultType == LavalinkLoadResultType.LoadFailed
                 || loadedTreck.LoadResultType == LavalinkLoadResultType.NoMatches))
                 return loadedTreck.Tracks.First();
             return null;
         }
-
-        public async Task<LavalinkTrack> FindTrack(string uri)
-        {
-            var url = new Uri(uri);
-            var loadedTreck = await LavalinkService.LavalinkNodeConnection.Rest.GetTracksAsync(url);
-            if (!(loadedTreck.LoadResultType == LavalinkLoadResultType.LoadFailed
-                || loadedTreck.LoadResultType == LavalinkLoadResultType.NoMatches))
-                return loadedTreck.Tracks.First();
-            return null;
-        }
-
-
     }
 }

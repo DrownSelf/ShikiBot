@@ -1,14 +1,9 @@
 ﻿using DSharpPlus;
 using DSharpPlus.Lavalink;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Shiki.Data;
-using DSharpPlus.Net;
 using Microsoft.Extensions.DependencyInjection;
 using Shiki.Service;
 using DSharpPlus.CommandsNext;
@@ -33,12 +28,6 @@ namespace Shiki
                 AutoReconnect = true,
                 MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
             });
-
-            var endpoint = new ConnectionEndpoint()
-            {
-                Hostname = connectionConfig.IpAdress,
-                Port = connectionConfig.Port
-            };
 
             var service = new ServiceCollection()
                 .AddSingleton(new LavalinkService(connectionConfig, Discord))

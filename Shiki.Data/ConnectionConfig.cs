@@ -7,9 +7,6 @@ namespace Shiki.Data
         [JsonProperty("DiscordToken")]
         public string DiscordToken { get; set; }
 
-        [JsonProperty("SpotifyToken")]
-        public string SpotifyToken { get; set; }
-
         [JsonProperty("IpAdress")]
         public string IpAdress { get; set; }
 

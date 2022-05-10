@@ -195,6 +195,14 @@
             "DSharpPlus.Lavalink": {
               "target": "Package",
               "version": "[4.2.0, )"
+            },
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "SpotifyAPI.Web.Auth": {
+              "target": "Package",
+              "version": "[6.2.2, )"
             }
           },
           "imports": [
